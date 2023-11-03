@@ -2,7 +2,11 @@
 
 
 function Home () {
-    return
+    return(
+        <p>
+            Some details about the guy
+        </p>
+    )
 };
 
 export default Home;

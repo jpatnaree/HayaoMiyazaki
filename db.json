@@ -1,0 +1,60 @@
+{
+  "movie": [
+    {
+      "id": 1,
+      "title": "Spirited Away",
+      "year_release": 1999,
+      "detail" : "movie detail",
+      "image": "demo.jpg",
+      "trailer_url": "youtube.com",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "Pompoco",
+      "year_release": 1999,
+      "detail" : "movie detail",
+      "image": "demo.jpg",
+      "trailer_url": "youtube.com",
+      "favorite": false
+
+    },
+    {
+      "id": 3,
+      "title": "The Grave of Fireflies",
+      "year_release": 1999,
+      "detail" : "movie detail",
+      "image": "demo.jpg",
+      "trailer_url": "youtube.com",
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "title": "Ponyo",
+      "year_release": 1999,
+      "detail" : "movie detail",
+      "image": "demo.jpg",
+      "trailer_url": "youtube.com",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "title": "Howl's Moving Castle",
+      "year_release": 1999,
+      "detail" : "movie detail",
+      "image": "demo.jpg",
+      "trailer_url": "youtube.com",
+      "favorite": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="picture/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.png" className="App-logo" alt="logo" />
         <p>
-          My Project with spinning React logo
+          Test, Test, Spinning React LOGO
         </p>
         <a
           className="App-link"

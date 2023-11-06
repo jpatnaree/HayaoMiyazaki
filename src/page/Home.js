@@ -7,6 +7,7 @@ function Home () {
         <>
         <NavBar />
         <div className="home">
+                <h1>Welcome to The Library of Hayao Miyazaki</h1>
              <aside><img id="miyazaki" alt="miyazaki" src="https://i.imgur.com/69xazZb.jpg" /> </aside>
              <h2 id="hometext"> 
                 Hayao Miyazaki is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, 

@@ -33,9 +33,11 @@ hr {
 
 .home{
     background-color: rgba(181, 250, 181, 0.138);
-    padding: 10%;
-    color: #0a0f05;
-    text-shadow: #A3e659;
+    padding: 5%;
+    color: rgb(158, 206, 61);
+    text-shadow: #6ab61a;
+    text-align: center;
+    place-content: center;
 }
 
 .home h2 {

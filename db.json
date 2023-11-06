@@ -80,6 +80,33 @@
       "detail": "Far in the future, after an apocalyptic conflict has devastated much of the world's ecosystem, the few surviving humans live in scattered semi-hospitable environments within what has become a \"toxic jungle.\" Young Nausicaä lives in the arid Valley of the Wind and can communicate with the massive insects that populate the dangerous jungle. Under the guidance of the pensive veteran warrior, Lord Yupa, Nausicaä works to bring peace back to the ravaged planet.",
       "trailer_url": "https://www.youtube.com/watch?v=6zhLBe319KE",
       "id": 9
+    },
+    {
+      "favorite": false,
+      "title": "From Up on Poppy Hill",
+      "year_release": 2011,
+      "trailer_url": "https://www.youtube.com/watch?v=9nzpk_Br6yo",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/dd/From_Up_On_Poppy_Hill.jpg/",
+      "detail": "It is based on the 1980 serialized manga of the same name illustrated by Chizuru Takahashi and written by Tetsurō Sayama. Set in 1963 Yokohama, Japan, the film tells the story of Umi Matsuzaki, a high school girl living in her grandmother's boarding house called \"Coquelicot Manor\". When Umi meets Shun Kazama, a member of the school's newspaper club, they decide to clean up the school's clubhouse, Quartier Latin. However, Tokumaru, the chairman of the local high school and a businessman, intends to demolish the building for redevelopment and Umi and Shun, along with Shirō Mizunuma, must persuade him to reconsider.",
+      "id": 10
+    },
+    {
+      "favorite": false,
+      "title": "Porco Rosso",
+      "year_release": 1992,
+      "image": "https://m.media-amazon.com/images/M/MV5BNTZjMDc2N2UtZTdjZi00ODljLTgyZmEtNDljZDAwODY4NDVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=awEC-aLDzjs",
+      "detail": "World War I flying ace Marco Pagott mysteriously turns from a man into a pig after all his comrades die in battle. Now known as Porco Rosso, the pilot continues fighting air pirates while, on the ground, flirting with a gorgeous club singer. After an attack by a brash American pilot, Porco meets confident Fio, who repairs his plane with her girl mechanics, and sees him for who he really is.",
+      "id": 11
+    },
+    {
+      "favorite": false,
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/7/7b/Whisper_of_the_Heart.jpg",
+      "title": "Whisper of the Heart",
+      "year_release": 1995,
+      "detail": "Based on the manga with the same title, this animated film follows Shizuku, an inquisitive young girl and a voracious reader, who longs to be a writer when she grows up. One day she notices that all of her library books have previously been taken out by one Seiji Amasawa. Amid chasing after a large cat, befriending an eccentric antiques dealer and writing her first novel, Shizuku aims to find this mysterious boy who may well be her soul mate.",
+      "trailer_url": "https://www.youtube.com/watch?v=0pVkiod6V0U",
+      "id": 12
     }
   ],
   "comments": [

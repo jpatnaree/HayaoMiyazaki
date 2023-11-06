@@ -18,7 +18,12 @@ function MovieCatalog({shows, setShows, myshow, setMyshow, updateMyShow}) {
     function deleteBoth(id) {
         setShows(shows.filter((show) => {
             return show.id !== id
+
         }))
+        fetch(`http://localhost:1993/movie/${id}`, {
+            method: "DELETE"
+
+        })
         deleteMyShow(id)
     };
 

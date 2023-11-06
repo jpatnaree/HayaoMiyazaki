@@ -51,11 +51,13 @@ function updateMyShow(show) {
     },
     {
       path: "/movies/:id",
-      element: <MovieDetail shows={shows} />
+      element: <MovieDetail shows={shows} />,
+      errorElement: <ErrorPage/>
     },
     {
       path: "/favorite",
-      element: <FavMovie shows={shows} />
+      element: <FavMovie shows={shows} />,
+      errorElement: <ErrorPage/>
     }
   ]
 

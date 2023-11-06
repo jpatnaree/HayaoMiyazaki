@@ -7,7 +7,7 @@ function MyShowCard({show, deleteMyShow}) {
 
 
     return(
-        <div className="show-card">
+        <div className="myshow-card">
             <img src={image} alt={title} className="show-art"/>
             <div className="details-container">
                 <header>

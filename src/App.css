@@ -92,7 +92,7 @@ hr {
     min-width:40%;
     gap:1em;
     border: 1px solid #A3e659;
-    border-radius: 4px;
+    border-radius: 999em 40px 999em 40px;
     padding-right: 1em;
     flex-direction: row-reverse;
     padding: 15px;
@@ -310,6 +310,44 @@ hr {
 }
 
 .show-detail footer button {
+    margin-left: 20%;
+    color:#1b2f02;
+    background-color: rgb(232, 255, 127);
+    border-radius: 20px 5px 20px;
+    font-weight: bolder;
+}
+
+/* My Show Card */
+
+.myshow-card {
+    display:flex;
+    width:40%;
+    height:30%;
+    min-width:40%;
+    gap:1em;
+    border: 1px solid #A3e659;
+    border-radius: 15px;
+    padding-right: 1em;
+    flex-direction: row-reverse;
+    padding: 15px;
+    background-color: #40723580;
+    margin: 1%;
+}
+
+.myshow-card:hover {
+    transform: scale(1.05);
+    background-color: #6a723580;
+}
+
+.myshow-card footer {
+    height:20%;
+    display:flex;
+    margin-top:auto;
+    margin-bottom:1em;
+
+}
+
+.myshow-card footer button {
     margin-left: 20%;
     color:#1b2f02;
     background-color: rgb(232, 255, 127);

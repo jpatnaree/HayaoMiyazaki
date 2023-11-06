@@ -1,38 +1,318 @@
-.App {
-  text-align: center;
+/* palette: https://coolors.co/efefef-574bdb-fb3640-161925-a7754d */
+
+body, #root {
+    /* margin:0px;
+   
+     */
+     
+    margin: 0px;
+
+    color: rgb(214, 224, 145);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-image: url("https://i.imgur.com/jPG8pnv.png");
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+header img {
+    width:100%;
+    height:auto;
+    margin-bottom: 1em;
+
+}
+
+hr {
+    border: .1em solid #a2fb36
+}
+
+/* Home */
+
+.home{
+    background-color: rgba(181, 250, 181, 0.138);
+    padding: 10%;
+    color: #0a0f05;
+    text-shadow: #A3e659;
+}
+
+.home h2 {
+    text-align: center;
+    place-content: center;
+    padding: 20px;
+    margin: 1% 15%;
+}
+
+#miyazaki {
+    --s: 10px; /* control the size */
+    width: 25%;
+    padding: var(--s);
+    border: calc(2*var(--s)) solid #0000;
+    outline: 2px solid #A3e659;
+    outline-offset: calc(-1*var(--s));
+    background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* Error */
+  #error {
+    margin: 5% 28%;
+    text-align: center;
+  }
+
+  #error img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* SHOW LIST */
+
+.show-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    gap: 1em;
+    margin-top: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+/* SHOW CARD */
+
+.show-card {
+    display:flex;
+    width:40%;
+    height:30%;
+    min-width:40%;
+    gap:1em;
+    border: 1px solid #A3e659;
+    border-radius: 4px;
+    padding-right: 1em;
+    flex-direction: row-reverse;
+    padding: 15px;
+    background-color: #40723580;
+    margin: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.show-card:hover {
+    transform: scale(1.05);
+    background-color: #6a723580;
+}
+
+.show-card a {
+    color: #96ca56;
+}
+
+.show-card footer {
+    height:20%;
+    display:flex;
+    margin-top:auto;
+    margin-bottom:1em;
+
+}
+
+.show-card footer button {
+    margin-left: 20%;
+    color:#1b2f02;
+    background-color: rgb(232, 255, 127);
+    border-radius: 20px 5px 20px;
+    font-weight: bolder;
+}
+
+.details-container {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.show-card h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.details-container header {
+    display:flex;
+    min-height:10%;
+}
+
+.details-container header button {
+    margin-left: auto;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+.details-container p {
+    height:40%;
+    min-height:45%;
+    overflow-y: auto;
+    padding: 5px;
+    margin:0px;
+}
+
+.show-art {
+    height:100%;
+    width:30%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+/* WATCH LIST */
+
+.watch-list-container {
+    display:flex;
+    overflow-y: auto;
+    gap: 1em;
+    width:100%;
+    height:20%;
+}
+
+.watch-list-container .show-card {
+    min-width:25%;
+    width:30%;
+    height:85%;
+}
+
+.watch-list-container .show-card p {
+    display:none;
+}
+
+/* NavBar */
+.navbar {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar > a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24.2%;
+    padding: 5px;
+    margin: 0 6px 6px;
+    background: rgb(167, 219, 95);
+    text-decoration: none;
+    text-align: center;
+    font-size: min(10vw, 15px) ;
+    color: #1b2f02;
+    font-weight:500
+}
+
+.navbar a:hover{
+    background: rgb(95, 144, 26);
+}
+
+/* Search Bar */
+
+.searchbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    color: #96ca56;
+    height: 45px;
+    font-size: larger;
+}
+
+.searchbar input {
+    height: 40px;
+    font-size: larger;
+}
+
+/* New Form */
+
+.new-movie-form {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    background-color: rgba(181, 250, 181, 0.5);
+    margin: 0% 10%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .new-movie-form form {
+    /* display: flex; */
+    justify-content: center;
   }
+  
+  .new-movie-form input {
+    margin-right: 2rem;
+    margin: 5px;
+    width: 25%;
+    height: 25px;
+    flex: 1;
+  }
+  
+  .new-movie-form button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-radius: 5px 20px 5px;
+    color:#1b2f02;
+    background-color: rgb(232, 255, 127);
+
+  }
+  .new-movie-form img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .likebutton {
+    width: 30px;
+  }
+
+  /* show detail */
+
+  .show-detail {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    min-width: 30%;
+    gap: 1em;
+    border: 1px solid #A3e659;
+    border-radius: 4px;
+    padding-right: 1em;
+    flex-direction: row-reverse;
+    padding: 15px;
+    background-color: #25431e80;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show-detail:hover {
+    /* transform: scale(1.05); */
+    background-color: #6a723580;
+}
+
+.show-detail a {
+    color: #96ca56;
+}
+
+.show-detail footer {
+    height:20%;
+    display:flex;
+    margin-top:auto;
+    margin-bottom:1em;
+
+}
+
+.show-detail footer button {
+    margin-left: 20%;
+    color:#1b2f02;
+    background-color: rgb(232, 255, 127);
+    border-radius: 20px 5px 20px;
+    font-weight: bolder;
 }

@@ -1,11 +1,20 @@
 
+import NavBar from "../component/NavBar";
 
 
 function Home () {
     return(
-        <p>
-            Some details about the guy
-        </p>
+        <>
+        <NavBar />
+        <div className="home">
+             <aside><img id="miyazaki" alt="miyazaki" src="https://i.imgur.com/69xazZb.jpg" /> </aside>
+             <h2 id="hometext"> 
+                Hayao Miyazaki is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, 
+            he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films,
+             and is widely regarded as one of the most accomplished filmmakers in the history of animation.
+             </h2>
+        </div>
+        </>
     )
 };
 

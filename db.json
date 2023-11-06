@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Spirited Away",
       "year_release": 2001,
-      "detail" : "10-year-old Chihiro moves with her parents to a new home in the Japanese countryside. After taking a wrong turn down a wooded path, Chihiro and her parents discover an amusement park with a stall containing an assortment of food. To her surprise, Chihiro's parents begin eating and then transform into pigs. In this supernatural realm, Chihiro encounters a host of characters and endures labor in a bathhouse for spirits, awaiting a reunion with her parents.",
+      "detail": "10-year-old Chihiro moves with her parents to a new home in the Japanese countryside. After taking a wrong turn down a wooded path, Chihiro and her parents discover an amusement park with a stall containing an assortment of food. To her surprise, Chihiro's parents begin eating and then transform into pigs. In this supernatural realm, Chihiro encounters a host of characters and endures labor in a bathhouse for spirits, awaiting a reunion with her parents.",
       "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=bkpMLAM0U7U",
       "favorite": true
@@ -13,17 +13,16 @@
       "id": 2,
       "title": "My Neighbor Totoro",
       "year_release": 1988,
-      "detail" : "This acclaimed animated tale by director Hayao Miyazaki follows schoolgirl Satsuke and her younger sister, Mei, as they settle into an old country house with their father and wait for their mother to recover from an illness in an area hospital. As the sisters explore their new home, they encounter and befriend playful spirits in their house and the nearby forest, most notably the massive cuddly creature known as Totoro.",
+      "detail": "This acclaimed animated tale by director Hayao Miyazaki follows schoolgirl Satsuke and her younger sister, Mei, as they settle into an old country house with their father and wait for their mother to recover from an illness in an area hospital. As the sisters explore their new home, they encounter and befriend playful spirits in their house and the nearby forest, most notably the massive cuddly creature known as Totoro.",
       "image": "https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=92a7Hj0ijLs",
       "favorite": false
-
     },
     {
       "id": 3,
       "title": "Princess Mononoke",
       "year_release": 1997,
-      "detail" : "A prince becomes involved in the struggle between a forest princess and the encroachment of mechanization.",
+      "detail": "A prince becomes involved in the struggle between a forest princess and the encroachment of mechanization.",
       "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Princess_Mononoke_Japanese_poster.png",
       "trailer_url": "https://www.youtube.com/watch?v=4OiMOHRDs14",
       "favorite": false
@@ -32,7 +31,7 @@
       "id": 4,
       "title": "Ponyo",
       "year_release": 2008,
-      "detail" : "During a forbidden excursion to see the surface world, a goldfish princess encounters a human boy named Sosuke, who gives her the name Ponyo. Ponyo longs to become human, and as her friendship with Sosuke grows, she becomes more humanlike. Ponyo's father brings her back to their ocean kingdom, but so strong is Ponyo's wish to live on the surface that she breaks free, and in the process, spills a collection of magical elixirs that endanger Sosuke's village.",
+      "detail": "During a forbidden excursion to see the surface world, a goldfish princess encounters a human boy named Sosuke, who gives her the name Ponyo. Ponyo longs to become human, and as her friendship with Sosuke grows, she becomes more humanlike. Ponyo's father brings her back to their ocean kingdom, but so strong is Ponyo's wish to live on the surface that she breaks free, and in the process, spills a collection of magical elixirs that endanger Sosuke's village.",
       "image": "https://m.media-amazon.com/images/M/MV5BOTc3YmM3N2QtODZkMC00ZDE5LThjMTQtYTljN2Y1YTYwYWJkXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_FMjpg_UX1000_.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=CsR3KVgBzSM",
       "favorite": false
@@ -41,10 +40,46 @@
       "id": 5,
       "title": "Howl's Moving Castle",
       "year_release": 1999,
-      "detail" : "Sophie has an uneventful life at her late father's hat shop, but all that changes when she befriends wizard Howl, who lives in a magical flying castle. However, the evil Witch of Waste takes issue with their budding relationship and casts a spell on young Sophie, which ages her prematurely. Now Howl must use all his magical talents to battle the jealous hag and return Sophie to her former youth and beauty.",
+      "detail": "Sophie has an uneventful life at her late father's hat shop, but all that changes when she befriends wizard Howl, who lives in a magical flying castle. However, the evil Witch of Waste takes issue with their budding relationship and casts a spell on young Sophie, which ages her prematurely. Now Howl must use all his magical talents to battle the jealous hag and return Sophie to her former youth and beauty.",
       "image": "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=iwROgK94zcM",
       "favorite": false
+    },
+    {
+      "title": "The Secret World Of Arrietty",
+      "year_release": 2010,
+      "image": "https://fr.web.img2.acsta.net/medias/nmedia/18/82/01/13/19597854.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=VlMe7PavaRQ",
+      "detail": "Arrietty, a tiny teenager, lives with her parents in the recesses of a suburban home, unbeknown to the homeowner and housekeeper. Like others of her kind, Arrietty remains hidden from her human hosts, but occasionally ventures forth from beneath the floorboards to borrow sugar cubes and other supplies. A secret friendship forms when 12-year-old Shawn meets Arrietty, but their relationship could spell danger for Arrietty's family.",
+      "id": 6,
+      "favorite": false
+    },
+    {
+      "favorite": false,
+      "title": "Kiki's Delivery Service",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTQ1ZTM1ZTgtN2Q2Ny00YjFkLTliNjEtN2I1ZmY5ZTY1OTEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year_release": 1989,
+      "detail": "13-year-old Kiki moves to a seaside town with her talking cat, Jiji, to spend a year alone, in accordance with her village's tradition for witches in training. After learning to control her broomstick, Kiki sets up a flying courier service and soon becomes a fixture in the community. But when the insecure young witch begins questioning herself and loses her magic abilities, she must overcome her self-doubt to get her powers back.",
+      "trailer_url": "https://www.youtube.com/watch?v=4bG17OYs-GA",
+      "id": 7
+    },
+    {
+      "favorite": false,
+      "title": "The Wind Rises",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/2/2d/The_Wind_Rises.jpg/",
+      "trailer_url": "https://www.youtube.com/watch?v=RzSpDgiF5y8",
+      "year_release": 2013,
+      "detail": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
+      "id": 8
+    },
+    {
+      "favorite": false,
+      "title": "Nausicaä of the Valley of the Wind",
+      "year_release": 1984,
+      "image": "https://m.media-amazon.com/images/M/MV5BZTI3NmJmYTQtNDg4NS00M2VlLTgzZDAtZWIwZDcyOWY5YzIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "detail": "Far in the future, after an apocalyptic conflict has devastated much of the world's ecosystem, the few surviving humans live in scattered semi-hospitable environments within what has become a \"toxic jungle.\" Young Nausicaä lives in the arid Valley of the Wind and can communicate with the massive insects that populate the dangerous jungle. Under the guidance of the pensive veteran warrior, Lord Yupa, Nausicaä works to bring peace back to the ravaged planet.",
+      "trailer_url": "https://www.youtube.com/watch?v=6zhLBe319KE",
+      "id": 9
     }
   ],
   "comments": [

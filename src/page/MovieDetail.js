@@ -13,7 +13,7 @@ function MovieDetail({shows}) {
         <>
         <NavBar />
     <div className="show-detail">
-        <img src={show.image} alt={show.title} className="show-art" />
+        <img src={show.image} alt={show.title} className="myshow-art" />
         <div className="details-container">
             <header>
                 <h3>{show.title}</h3>                    

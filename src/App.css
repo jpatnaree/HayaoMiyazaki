@@ -163,8 +163,7 @@ hr {
     height:100%;
     width:30%;
     object-fit: cover;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-radius: 50%;
 }
 
 
@@ -353,4 +352,12 @@ hr {
     background-color: rgb(232, 255, 127);
     border-radius: 20px 5px 20px;
     font-weight: bolder;
+}
+
+.myshow-art {
+    height:100%;
+    width:30%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }

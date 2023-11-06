@@ -7,7 +7,7 @@ function Search({setSearchBar}) {
           <input
             type="text"
             id="search"
-            placeholder="Type a title to search..."
+            placeholder="Type a title or released year to search..."
             onChange={(e)=> setSearchBar(e.target.value)}
           />
         </div>

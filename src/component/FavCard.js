@@ -7,7 +7,7 @@ function FavCard({show}) {
     return (
         <>
     <div className="show-detail">
-        <img src={image} alt={title} className="show-art" />
+        <img src={image} alt={title} className="myshow-art" />
         <div className="details-container">
             <header>
                 <h3>{title}</h3>                    

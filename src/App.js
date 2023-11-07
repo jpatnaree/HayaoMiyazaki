@@ -14,12 +14,14 @@ function App() {
 
   const [shows, setShows] = useState([])
   const [myshow, setMyshow] = useState([])
+  const [noSort, setNoSort] = useState([])
 
   useEffect(() => {
     fetch('http://localhost:1993/movie')
     .then(resp => resp.json())
     .then(showJSON => {
         setShows(showJSON)
+        setNoSort(showJSON)
     })
 }, [])
 
@@ -48,7 +50,7 @@ function updateMyShow(show) {
     },
     {
       path: "/movies",
-      element: <MovieCatalog shows={shows} setShows={setShows} myshow={myshow} setMyshow={setMyshow} updateMyShow={updateMyShow} />,
+      element: <MovieCatalog shows={shows} setShows={setShows} myshow={myshow} setMyshow={setMyshow} updateMyShow={updateMyShow} noSort={noSort} />,
       errorElement: <ErrorPage/>
     },
     {

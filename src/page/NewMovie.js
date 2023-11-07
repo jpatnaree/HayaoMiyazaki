@@ -50,9 +50,9 @@ function NewMovie({shows, setShows}) {
             handleSubmit(e)
             setSubmittedForm(true)}}>
             <input onChange={handleInput} type="text" name="title" placeholder="Title" /><br/>
-            <input onChange={handleInput} type="text" name="image" placeholder="Image URL" /><br/>
             <input onChange={handleInput} type="number" name="year_release" placeholder="Released Year" /><br/>
-            <input onChange={handleInput} type="text" name="detail" placeholder="Movie Info" /><br/>
+            <input id="input-detail" onChange={handleInput} type="text" name="detail" placeholder="Movie Info" /><br/>
+            <input onChange={handleInput} type="text" name="image" placeholder="Image URL" /><br/>
             <input onChange={handleInput} type="text" name="trailer_url" placeholder="Trailer URL" /><br/>
             <button type="submit">Add</button>
           </form>

@@ -34,10 +34,14 @@ hr {
 .home{
     background-color: rgba(181, 250, 181, 0.138);
     padding: 5%;
-    color: rgb(158, 206, 61);
-    text-shadow: #6ab61a;
+    color: rgb(6, 50, 9);
     text-align: center;
     place-content: center;
+    font-family:monospace;
+    text-shadow:1px 1px 10px #b2d286, 1px 1px 10px #ccc;
+}
+.home h1 {
+    font-size: 40px;
 }
 
 .home h2 {
@@ -48,16 +52,68 @@ hr {
 }
 
 #miyazaki {
-    --s: 10px; /* control the size */
-    width: 25%;
-    padding: var(--s);
-    border: calc(2*var(--s)) solid #0000;
-    outline: 2px solid #A3e659;
-    outline-offset: calc(-1*var(--s));
-    background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* --s: 10px; control the size */
+    /* width: 25%; */
+    /* padding: var(--s); */
+    /* border: calc(2*var(--s)) solid #0000; */
+    /* outline: 2px solid #A3e659; */
+    /* outline-offset: calc(-1*var(--s)); */
+    /* background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0); */
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+
+  @property --gap{
+    syntax: '<length>';
+    inherits: true;
+    initial-value: 0;
+  }
+  @property --angle{
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 0deg;
+  }
+  
+  #miyazaki {
+    --border: 15px;
+    --gap: 12px;
+    --color: #90e848;
+    
+    width: 35%;
+    height: 35%;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+    padding: calc(var(--border) + var(--gap));
+    
+    --angle: 90deg;
+    background:
+      radial-gradient(farthest-side,var(--color) 97%,#0000 101%) 85.35% 85.35%,
+      conic-gradient(from calc(180deg - var(--angle)/2),#0000 var(--angle),var(--color) 0),
+      radial-gradient(farthest-side,var(--color) 97%,#0000 101%) 14.65% 85.35%;
+    background-size: var(--border) var(--border),auto;
+    background-repeat: no-repeat;
+    
+    -webkit-mask:
+      radial-gradient(farthest-side, 
+       #000  calc(99%  - calc(var(--border) + var(--gap))),
+       #0000 calc(100% - calc(var(--border) + var(--gap))) 
+             calc(99%  - var(--border)), 
+       #000  calc(100% - var(--border)));
+            mask:
+      radial-gradient(farthest-side, 
+       #000  calc(99%  - calc(var(--border) + var(--gap))),
+       #0000 calc(100% - calc(var(--border) + var(--gap))) 
+             calc(99%  - var(--border)), 
+       #000  calc(100% - var(--border)));
+    transition: --angle .4s,--gap .4s;
+  }
+  #miyazaki:hover {
+    --angle: 0deg;
+    --gap: 5px;
   }
 
   /* Error */
@@ -271,6 +327,10 @@ hr {
 
   .likebutton {
     width: 30px;
+  }
+
+  #input-detail {
+    height: 50px;
   }
 
   /* show detail */

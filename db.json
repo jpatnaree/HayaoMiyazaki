@@ -107,6 +107,24 @@
       "detail": "Based on the manga with the same title, this animated film follows Shizuku, an inquisitive young girl and a voracious reader, who longs to be a writer when she grows up. One day she notices that all of her library books have previously been taken out by one Seiji Amasawa. Amid chasing after a large cat, befriending an eccentric antiques dealer and writing her first novel, Shizuku aims to find this mysterious boy who may well be her soul mate.",
       "trailer_url": "https://www.youtube.com/watch?v=0pVkiod6V0U",
       "id": 12
+    },
+    {
+      "favorite": false,
+      "title": "Lupin III: The Castle of Cagliostro",
+      "year_release": 1979,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8116000_p_v10_ab.jpg",
+      "detail": "Arsene Lupin III, the world's most daring thief, pulls off a heist at a Monte Carlo casino. But, when he discovers his haul is nothing more than a pile of counterfeit bills, Lupin traces the money to a villainous count in the small country of Cagliostro. With his trusty comrades, Lupin travels to Cagliostro, where he meets a beautiful but unhappy princess. As Lupin tries to unravel the count's secrets, he find himself drawn into a bigger mystery.",
+      "trailer_url": "https://www.youtube.com/watch?v=wJudurbkv1E",
+      "id": 13
+    },
+    {
+      "favorite": false,
+      "title": "Castle in the Sky",
+      "year_release": 1986,
+      "detail": "Young orphan Sheeta and her kidnapper, Col. Muska, are flying to a military prison when their plane is attacked by a gang of air pirates led by the matronly Dola. Escaping from a mid-air collision via a magic crystal around her neck, Sheeta meets fellow orphan Pazu and the pair join forces to discover the mystical floating city of Laputa while pursued by both Muska and the pirates, who lust for the city's myriad treasures.",
+      "trailer_url": "https://www.youtube.com/watch?v=8ykEy-yPBFc",
+      "image": "https://realwomenofgaming.files.wordpress.com/2023/06/cits2.jpg",
+      "id": 14
     }
   ],
   "comments": [

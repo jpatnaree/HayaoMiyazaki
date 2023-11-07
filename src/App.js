@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./component/Header"
-import NavBar from './component/NavBar';
+// import NavBar from './component/NavBar';
 import MovieCatalog from "./page/MovieCatalog"
 import Home from "./page/Home"
 import ErrorPage from "./page/ErrorPage"
@@ -33,6 +33,8 @@ function updateMyShow(show) {
     }
 }
 
+
+ // Router 
   const routes = [
     {
       path: "/",

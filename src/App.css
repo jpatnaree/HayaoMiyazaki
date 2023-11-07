@@ -32,13 +32,13 @@ hr {
 /* Home */
 
 .home{
-    background-color: rgba(181, 250, 181, 0.138);
+    background-color: rgba(187, 234, 98, 0.138);
     padding: 5%;
     color: rgb(6, 50, 9);
     text-align: center;
     place-content: center;
-    font-family:monospace;
-    text-shadow:1px 1px 10px #b2d286, 1px 1px 10px #ccc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:1px 1px 10px #e7e8d2, 1px 1px 10px #d5ee84;
 }
 .home h1 {
     font-size: 40px;
@@ -51,7 +51,7 @@ hr {
     margin: 1% 15%;
 }
 
-#miyazaki {
+/* #miyazaki { */
     /* --s: 10px; control the size */
     /* width: 25%; */
     /* padding: var(--s); */
@@ -62,7 +62,7 @@ hr {
     /* display: block; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-  }
+  /* } */
 
   @property --gap{
     syntax: '<length>';
@@ -283,6 +283,20 @@ hr {
 .searchbar input {
     height: 40px;
     font-size: larger;
+}
+
+/* sort */
+
+.sort {
+    padding: 1rem;
+    margin-left: 5%;
+    display: flex;
+    color: #96ca56;
+    font-size: larger;
+}
+
+.sort option {
+    margin-left: 5%;
 }
 
 /* New Form */

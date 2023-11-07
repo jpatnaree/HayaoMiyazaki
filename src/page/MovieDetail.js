@@ -8,7 +8,8 @@ function MovieDetail({shows}) {
         return s.id === Number(id)
     })
 
-    
+
+   
     return (
         <>
         <NavBar />

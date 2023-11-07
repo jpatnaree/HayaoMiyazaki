@@ -10,7 +10,7 @@ Run these command in order:
 
     npm install
 
-    npm npm install react-router-dom@6
+    npm install react-router-dom@6
 
     npm run server
 

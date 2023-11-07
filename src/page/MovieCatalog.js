@@ -79,7 +79,7 @@ const [dropDown, setDropDown] = useState('');
     setDropDown(e.target.value)
   }
 
-  console.log(dropDown)
+//   console.log(dropDown)
 
   function sorting() {
     if(dropDown === "none") {
@@ -107,12 +107,12 @@ const filteredSearch = shows.filter(show => {
             <MyWatchList myshow={myshow} deleteMyShow={deleteMyShow} />
             <hr/>
             <Search setSearchBar={setSearchBar} />
-            <label for="sorting" className='sort'>Sort By:</label> 
+            {/* <label for="sorting" className='sort'>Sort By:</label> 
                 <select onChange={toSetDropDown} name="sort" id="sort"> 
                     <option value="none" name="none" >None</option> 
                     <option value="byname" name="byname" >Released Year</option> 
                     <option value="byyear" name="byyear" >Name</option> 
-                </select>
+                </select> */}
             <ShowList shows={filteredSearch} updateMyShow={updateMyShow} deleteBoth={deleteBoth} setShows={setShows}/>
             
         </>

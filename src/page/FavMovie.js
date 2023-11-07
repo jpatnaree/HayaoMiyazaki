@@ -17,6 +17,7 @@ return (
     <NavBar/>
     <div className="show-container">
         {displayFav}
+        <img alt="deco" src="https://i.imgur.com/kpdclWT.png" />
     </div>
     </>
 )

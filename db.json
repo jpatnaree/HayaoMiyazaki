@@ -134,6 +134,15 @@
       "year_release": 1988,
       "title": "Grave of the Fireflies",
       "id": 15
+    },
+    {
+      "favorite": false,
+      "title": "The Boy and the Heron",
+      "year_release": 2023,
+      "detail": "A young boy named Mahito yearning for his mother ventures into a world shared by the living and the dead. There, death comes to an end, and life finds a new beginning. A semi-autobiographical fantasy about life, death, and creation, in tribute to friendship",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=f7EDFdA10pg",
+      "id": 16
     }
   ],
   "comments": [

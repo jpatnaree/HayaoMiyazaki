@@ -36,18 +36,18 @@ useEffect(() => {
 },[])
 
   sortYear.sort((a, b) => {
-    const nameA = a.year_release; // ignore upper and lowercase
-    const nameB = b.year_release; // ignore upper and lowercase
-    if (nameA < nameB) {
+    const yearA = a.year_release; // ignore upper and lowercase
+    const yearB = b.year_release; // ignore upper and lowercase
+    if (yearA < yearB) {
       return -1;
     }
-    if (nameA > nameB) {
+    if (yearA > yearB) {
       return 1;
     }
     return 0;
   });
 
-  // console.log(sortYear);
+//   console.log(sortYear);
 
   // To sort by name
 
@@ -60,12 +60,12 @@ useEffect(() => {
   },[])
 
   sortName.sort((a, b) => {
-    const nameA = a.title.toUpperCase(); // ignore upper and lowercase
-    const nameB = b.title.toUpperCase(); // ignore upper and lowercase
-    if (nameA < nameB) {
+    const titleA = a.title.toUpperCase(); // ignore upper and lowercase
+    const titleB = b.title.toUpperCase(); // ignore upper and lowercase
+    if (titleA < titleB) {
       return -1;
     }
-    if (nameA > nameB) {
+    if (titleA > titleB) {
       return 1;
     }
 
@@ -97,7 +97,7 @@ const [dropDown, setDropDown] = useState('');
     }
   };
     
-const filteredSearch = sortName.filter(show => {
+const filteredSearch = shows.filter(show => {
     return show.title.toUpperCase().includes(searchBar.toUpperCase()) || (show.year_release + "").toUpperCase().includes(searchBar.toUpperCase())
 });
 

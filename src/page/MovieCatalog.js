@@ -41,6 +41,7 @@ function MovieCatalog({shows, setShows, myshow, setMyshow, updateMyShow, noSort}
     }
   }
 
+
     
 const filteredSearch = shows.filter(show => {
     return show.title.toUpperCase().includes(searchBar.toUpperCase()) || (show.year_release + "").toUpperCase().includes(searchBar.toUpperCase())

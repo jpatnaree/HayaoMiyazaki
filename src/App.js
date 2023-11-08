@@ -69,12 +69,7 @@ function updateMyShow(show) {
 
   return (
     <>
-      <Header />
-      
-      {/* <Home />
-      <ErrorPage /> */}
-      {/* <MovieCatalog shows={shows} setShows={setShows} myshow={myshow} setMyshow={setMyshow} updateMyShow={updateMyShow} /> */}
-
+      <Header />    
       <RouterProvider router={router}/>
     </>
   );

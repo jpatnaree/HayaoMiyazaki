@@ -9,15 +9,25 @@ Hayao Miyazaki is a Japanese animator, filmmaker, and manga artist. A co-founder
 - Home Page 
 
 - Movie Page 
+
     • Sorting feature
+
     • Search feature
+
     • Click on the image of the movie, small image and name show up on top of the page as wishlist or watch later, click on the small image and it will disappear
+
     • Favorite button
+
     • Delete button - delete from front end and back end
+    
     • Click See Detail to see only the detail of the movie that was clicked
+
 - Add Movie
+
     • Add new movie and redirect to Movie Page when you submit the form
+
 - Favorite Page
+
     • Show the detail of the movie(s) that you ❤️
 
 # To run the website 

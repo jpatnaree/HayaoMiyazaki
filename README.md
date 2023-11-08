@@ -22,7 +22,7 @@ Hayao Miyazaki is a Japanese animator, filmmaker, and manga artist. A co-founder
 
 # To run the website 
 
-Run these command in order:
+After you fork and clone, run these command in order:
 
     npm install
 

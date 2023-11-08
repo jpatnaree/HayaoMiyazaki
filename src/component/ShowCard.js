@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {  Link } from "react-router-dom"
 
-function ShowCard({show, updateMyShow, deleteBoth, setShows}) {
+function ShowCard({show, updateMyShow, deleteBoth, setShows, shows}) {
     // the next time this renders, toggle will become true
     const {title, detail, image, id, year_release, trailer_url } = show
     const [toggle, setToggle] = useState(show.favorite)
@@ -22,22 +22,21 @@ function ShowCard({show, updateMyShow, deleteBoth, setShows}) {
             })
         })
         .then (res=>res.json())
-        .then( data=> console.log(data))
+        .then( data=> setShows(shows, data))
         // toggle is still false
         setToggle(!toggle);
     }
 
     const setButton = toggle?<button onClick={()=>{
-        updateMyShow(show)
-        toggleButton(show)}}><img className='likebutton' src="https://i.imgur.com/blrZOhR.png" alt="fav"/></button> : 
+                toggleButton(show)}}><img className='likebutton' src="https://i.imgur.com/blrZOhR.png" alt="fav"/></button> : 
         <button onClick={()=>{
-            updateMyShow(show)
-            toggleButton(show)}}><img className='likebutton' src="https://i.imgur.com/3hjEouE.png" alt="unfav"/></button>;
+                        toggleButton(show)}}><img className='likebutton' src="https://i.imgur.com/3hjEouE.png" alt="unfav"/></button>;
     
     
     return(
         <div className="show-card">
-            <img src={image} alt={title} className="show-art" />
+            <img src={image} alt={title} className="show-art" onClick={()=>{
+        updateMyShow(show)}}/>
             <div className="details-container">
                 <header>
                     <h3>{title}</h3>                    

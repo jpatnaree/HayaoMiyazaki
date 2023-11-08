@@ -276,8 +276,8 @@ hr {
     flex-direction: column;
     /* font-weight: bolder; */
     color: #96ca56;
-    height: 35px;
-    font-size:18px;
+    height: 30px;
+    font-size:16px;
 }
 
 .searchbar input {
@@ -294,14 +294,14 @@ hr {
     margin-left: 1rem;
     display: flex;
     color: #96ca56;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #sort {
     /* margin-left: 5%; */
     margin-left: 1rem;
     width: 20%;
-    height: 30px;
+    height: 28px;
     font-size: 18px;
 }
 
@@ -401,18 +401,28 @@ hr {
 /* My Show Card */
 
 .myshow-card {
-    display:flex;
-    width:40%;
-    height:30%;
-    min-width:40%;
-    gap:1em;
+    display: flex;
+    width: 10%;
+    height: 20%;
+    min-width: 40%;
+    gap: 1em;
     border: 1px solid #A3e659;
-    border-radius: 15px;
+    border-radius: 360px 180px / 180px 270px;
     padding-right: 1em;
     flex-direction: row-reverse;
     padding: 15px;
     background-color: #40723580;
     margin: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.myshow-card h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .myshow-card:hover {
@@ -442,4 +452,5 @@ hr {
     object-fit: cover;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    border-radius: 50%;
 }

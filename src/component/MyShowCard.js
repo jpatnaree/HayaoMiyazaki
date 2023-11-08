@@ -8,14 +8,11 @@ function MyShowCard({show, deleteMyShow}) {
 
     return(
         <div className="myshow-card">
-            <img src={image} alt={title} className="show-art"/>
+            <img src={image} alt={title} className="myshow-art" onClick={()=> deleteMyShow(id) }/>
             <div className="details-container">
                 <header>
                     <h3>{title}: {year_release}</h3>                 
                 </header>
-                <footer>
-                    <button key={id} onClick={()=> deleteMyShow(id) }>Remove</button>
-                </footer>
             </div>
         </div>
     );

@@ -128,21 +128,21 @@
     },
     {
       "favorite": false,
-      "trailer_url": "https://www.youtube.com/watch?v=4vPeTSRd580",
-      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/6/6d/Grave_of_the_Fireflies_poster.jpg",
-      "detail": "On the final days of World War II, 14-year-old Seita and his four-year-old sister Setsuko are orphaned after their mother is killed during an air-raid by American forces in Kobe, Japan. After having a falling-out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency funds and rations depleted, Seita and Setsuko must struggle to survive their hardships as well as those of their country, which is on the losing end of the war.",
-      "year_release": 1988,
-      "title": "Grave of the Fireflies",
-      "id": 15
-    },
-    {
-      "favorite": false,
       "title": "The Boy and the Heron",
       "year_release": 2023,
       "detail": "A young boy named Mahito yearning for his mother ventures into a world shared by the living and the dead. There, death comes to an end, and life finds a new beginning. A semi-autobiographical fantasy about life, death, and creation, in tribute to friendship",
       "image": "https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=f7EDFdA10pg",
       "id": 16
+    },
+    {
+      "favorite": false,
+      "title": "Grave of the Fireflies",
+      "year_release": 1988,
+      "detail": "On the final days of World War II, 14-year-old Seita and his four-year-old sister Setsuko are orphaned after their mother is killed during an air-raid by American forces in Kobe, Japan. After having a falling-out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency funds and rations depleted, Seita and Setsuko must struggle to survive their hardships as well as those of their country, which is on the losing end of the war.",
+      "image": "https://images.hive.blog/DQmPVfMBBvxYvjxBSuumqo5p7826VNAEhMhJxfGQBfWynqf/p158931_p_v10_aa.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=4vPeTSRd580",
+      "id": 17
     }
   ],
   "comments": [

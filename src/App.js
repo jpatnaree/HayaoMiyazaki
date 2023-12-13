@@ -15,6 +15,8 @@ function App() {
   const [shows, setShows] = useState([])
   const [myshow, setMyshow] = useState([])
   const [noSort, setNoSort] = useState([])
+  
+  
 
   useEffect(() => {
     fetch('http://localhost:1993/movie')

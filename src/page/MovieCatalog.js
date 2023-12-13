@@ -54,7 +54,7 @@ const filteredSearch = shows.filter(show => {
             <hr/>
             <Search setSearchBar={setSearchBar} />
             <Dropdown toSetDropDown={toSetDropDown} />
-            <ShowList shows={filteredSearch} updateMyShow={updateMyShow} deleteBoth={deleteBoth} setShows={setShows}/>
+            <ShowList shows={filteredSearch} updateMyShow={updateMyShow} deleteBoth={deleteBoth} setShows={setShows} />
             
         </>
     );
